@@ -24,37 +24,66 @@
 <main>
 <section id="home" class="page">
   <div class="hero">
-    <div class="wrap">
-      <p class="tag">강동구 강일동 세무사</p>
-      <h1>사장님의 세금,<br>일정부터 함께 챙깁니다</h1>
-      <p class="lead">개인·법인 사업자 기장과 신고대리, 양도소득세·상속세·증여세 상담을 합니다. 신고 기한 전에 필요한 자료와 일정을 먼저 안내해 드립니다.</p>
-      <div class="btns">
-        <a class="btn kakao" href="http://pf.kakao.com/_xkADEX" target="_blank" rel="noopener">카카오톡으로 상담하기</a>
-        <a class="btn ghost" href="tel:02-6952-7046">전화 02-6952-7046</a>
+    <div class="wrap hero-grid">
+      <div class="hero-main">
+        <p class="tag">강동구 강일동 세무사</p>
+        <h1>사장님의 세금,<br>일정부터 함께 챙깁니다</h1>
+        <p class="lead">개인·법인 사업자 기장과 신고대리,<br>양도소득세·상속세·증여세 상담을 합니다.<br>신고 기한 전에 필요한 자료와 일정을<br class="m"> 먼저 안내해 드립니다.</p>
+        <div class="btns">
+          <a class="btn kakao" href="http://pf.kakao.com/_xkADEX" target="_blank" rel="noopener">카카오톡으로 상담하기</a>
+          <a class="btn ghost" href="tel:02-6952-7046">전화 02-6952-7046</a>
+        </div>
       </div>
+      <aside class="due">
+        <div class="due-head"><span>다가오는 신고 일정</span><a href="#schedule">전체 보기 →</a></div>
+        <ol class="due-list" id="due-list"></ol>
+        <p class="due-note">기한이 토·일·공휴일이면 그다음 날까지입니다.</p>
+      </aside>
+    </div>
+  </div>
+  <div class="facts">
+    <div class="wrap facts-in">
+      <div><span>상담 시간</span><b>평일 10:00 ~ 18:00</b></div>
+      <div><span>주차</span><b>건물 내 3시간 무료 주차</b></div>
+      <div><span>대중교통</span><b>지하철 5호선 상일동역</b></div>
     </div>
   </div>
   <div class="wrap home-body">
-    <div class="tiles"><a class="tile" href="#about"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d='M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2'/><circle cx='12' cy='7' r='4'/></svg><span>사무소 소개</span><i>→</i></a><a class="tile" href="#services"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x='3' y='7' width='18' height='13' rx='2'/><path d='M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2'/></svg><span>업무 분야</span><i>→</i></a><a class="tile" href="#schedule"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x='3' y='4' width='18' height='18' rx='2'/><path d='M16 2v4M8 2v4M3 10h18'/></svg><span>신고 일정</span><i>→</i></a><a class="tile" href="#consult"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d='M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z'/></svg><span>상담 안내</span><i>→</i></a><a class="tile" href="#location"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d='M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/></svg><span>오시는 길</span><i>→</i></a><a class="tile" href="#blog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d='M12 20h9'/><path d='M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z'/></svg><span>세무 블로그</span><i>→</i></a></div>
+    <div class="sec-title"><span>업무 분야</span><h2 class="h-big">이런 일을 도와드립니다</h2></div>
+    <div class="svc-list"><a class="svc" href="#services"><span class="svc-no">01</span><b>기장 · 신고대리</b><i>→</i></a><a class="svc" href="#services"><span class="svc-no">02</span><b>부가가치세 · 종합소득세 · 법인세 신고</b><i>→</i></a><a class="svc" href="#services"><span class="svc-no">03</span><b>양도소득세 · 상속세 · 증여세</b><i>→</i></a><a class="svc" href="#services"><span class="svc-no">04</span><b>창업 · 세무 컨설팅</b><i>→</i></a></div>
+  </div>
+  <div class="intro">
+    <div class="wrap intro-in">
+      <p class="intro-label">세무회계선율</p>
+      <p class="intro-big">정확한 검토, 명확한 해답.<br>세금의 기준을 함께 살핍니다.</p>
+      <p class="intro-txt">정확한 세무 판단과 책임 있는 검토로<br>신뢰할 수 있는 세무 파트너가 되겠습니다.</p>
+      <a class="intro-link" href="#about"><span>오희옥 세무사</span><i>→</i></a>
+    </div>
+  </div>
+  <div class="wrap home-body">
     <div class="home-blog">
       <div class="row-head"><h2 class="h-sm">세무 블로그</h2><a class="more" href="#blog">전체 보기 →</a></div>
       <div class="posts"><a class="post" href="https://blog.naver.com/seonyul_tax/224491307622" target="_blank" rel="noopener" data-cat="사업자 세무"><span class="post-meta"><span class="post-cat">사업자 세무</span><span class="post-date">2026.11.25</span></span><span class="post-title">고향사랑기부금 세액공제 총정리｜10만원 기부하면 얼마나 돌려받을까?</span></a>
 <a class="post" href="https://blog.naver.com/seonyul_tax/224490160508" target="_blank" rel="noopener" data-cat="사업자 세무"><span class="post-meta"><span class="post-cat">사업자 세무</span><span class="post-date">2026.11.24</span></span><span class="post-title">개인사업자 연말 절세 체크리스트｜12월 31일 전 확인할 장부·증빙 5가지</span></a>
 <a class="post" href="https://blog.naver.com/seonyul_tax/224488524192" target="_blank" rel="noopener" data-cat="양도·상속·증여"><span class="post-meta"><span class="post-cat">양도·상속·증여</span><span class="post-date">2026.11.23</span></span><span class="post-title">1세대 1주택 비과세 요건 정리｜보유기간·거주기간 확인하기</span></a></div>
     </div>
+    <div class="band home-band">
+      <div><h2>세금 고민, 편하게 물어보세요</h2><p>카카오톡 채널에 남겨 주시면 <br class="m">확인 후 답변드립니다.</p></div>
+      <a class="btn kakao" href="http://pf.kakao.com/_xkADEX" target="_blank" rel="noopener">카카오톡으로 상담하기</a>
+    </div>
   </div>
 </section>
 
 <section id="about" class="page">
-  <div class="page-head"><div class="wrap"><h2>세무회계선율</h2><p class="sub">정확한 검토, 명확한 해답. 세금의 기준을 함께 살핍니다.</p></div></div>
+  <div class="page-head" style="--img:url(https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=1800&q=70)"><div class="wrap"><h2>세무회계선율</h2><p class="sub">정확한 검토, 명확한 해답.<br>세금의 기준을 함께 살핍니다.</p></div></div>
   <div class="wrap page-body about-grid">
     <div class="about-text">
-      <p>세금 문제는 같은 상황처럼 보여도 구체적인 사실관계와 적용 요건에 따라 결과가 달라집니다.</p>
-      <p>세무회계선율은 정해진 방식에 맞춰 신고하는 데 그치지 않고, 의뢰인의 상황과 거래의 내용을 충분히 살펴 세법에 따른 정확한 판단과 합리적인 해결 방향을 제시하고자 합니다.</p>
-      <p>개인과 법인의 세무 업무부터 양도소득세, 상속세, 증여세 등 중요한 자산 관련 세금까지, 각 사안의 핵심을 파악하고 놓치기 쉬운 부분까지 꼼꼼하게 검토합니다.</p>
-      <p>세금은 신고하는 순간에만 중요한 것이 아닙니다. 거래를 결정하기 전, 자산을 이전하기 전, 사업을 운영하는 과정에서 미리 살펴야 할 사항들이 있습니다.</p>
-      <p>세무회계선율은 현재의 세금 문제를 해결하는 것은 물론, 앞으로 발생할 수 있는 세금 문제까지 함께 살피겠습니다.</p>
-      <p class="pledge"><strong>정확한 세무 판단과 책임 있는 검토로 신뢰할 수 있는 세무 파트너가 되겠습니다.</strong></p>
+      <p>세금 문제는 같은 상황처럼 보여도<br>구체적인 사실관계와 적용 요건에 따라 결과가 달라집니다.</p>
+      <p>세무회계선율은 정해진 방식에 맞춰 신고하는 데 그치지 않고,<br>의뢰인의 상황과 거래의 내용을 충분히 살펴<br>세법에 따른 정확한 판단과 합리적인 해결 방향을 제시하고자 합니다.</p>
+      <p>개인과 법인의 세무 업무부터<br>양도소득세, 상속세, 증여세 등 중요한 자산 관련 세금까지,<br>각 사안의 핵심을 파악하고 놓치기 쉬운 부분까지 꼼꼼하게 검토합니다.</p>
+      <p>세금은 신고하는 순간에만 중요한 것이 아닙니다.<br>거래를 결정하기 전, 자산을 이전하기 전, 사업을 운영하는 과정에서<br>미리 살펴야 할 사항들이 있습니다.</p>
+      <p>세무회계선율은 현재의 세금 문제를 해결하는 것은 물론,<br>앞으로 발생할 수 있는 세금 문제까지 함께 살피겠습니다.</p>
+      <p class="pledge"><strong>정확한 세무 판단과 책임 있는 검토로<br>신뢰할 수 있는 세무 파트너가 되겠습니다.</strong></p>
       <p class="sign"><span>세무회계선율</span><span>오희옥 세무사</span></p>
     </div>
     <aside class="profile">
@@ -71,46 +100,44 @@
 </section>
 
 <section id="services" class="page">
-  <div class="page-head"><div class="wrap"><h2>이런 일을 도와드립니다</h2></div></div>
+  <div class="page-head" style="--img:url(https://images.unsplash.com/photo-1762427354566-2b6902a9fd06?auto=format&fit=crop&w=1800&q=70)"><div class="wrap"><h2>이런 일을 도와드립니다</h2></div></div>
   <div class="wrap page-body">
-    <div class="cards">
-      <article class="card"><span class="no">①</span><h3>기장 · 신고대리</h3><p>개인·법인 사업자의 장부를 작성하고, 원천세 신고와 지급명세서 제출 등 정기적으로 돌아오는 신고를 맡아 처리합니다. 증빙 자료를 보내 주시면 됩니다.</p></article>
-      <article class="card"><span class="no">②</span><h3>부가가치세 · 종합소득세 · 법인세 신고</h3><p>정해진 기한 안에 신고하고, 적용받을 수 있는 세액공제와 감면이 있는지 검토합니다.</p></article>
-      <article class="card"><span class="no">③</span><h3>양도소득세 · 상속세 · 증여세</h3><p>주택을 팔거나 가족에게 재산을 넘겨줄 때 세금이 얼마나 나오는지, 비과세나 공제를 받을 수 있는지 사실관계부터 확인합니다. 계약하시기 전에 먼저 상담받으시길 권합니다.</p></article>
-      <article class="card"><span class="no">④</span><h3>창업 · 세무 컨설팅</h3><p>사업자등록, 홈택스 사업용 계좌·신용카드 등록, 첫 직원 채용 후 신고까지 사업을 처음 시작할 때 챙길 것을 순서대로 안내합니다.</p></article>
-    </div>
+    <div class="cards"><article class="card"><div class="card-img" style="background-image:url(https://images.unsplash.com/photo-1771758249853-415175dc29b9?auto=format&fit=crop&w=1200&q=70)"></div><div class="card-txt"><span class="no">①</span><h3>기장 · 신고대리</h3><p>개인·법인 사업자의 장부를 작성하고,<br>원천세 신고와 지급명세서 제출 등<br>정기적으로 돌아오는 신고를 맡아 처리합니다.</p></div></article><article class="card"><div class="card-img" style="background-image:url(https://images.unsplash.com/photo-1762427354051-a9bdb181ae3b?auto=format&fit=crop&w=1200&q=70)"></div><div class="card-txt"><span class="no">②</span><h3>부가가치세 · 종합소득세 · 법인세 신고</h3><p>정해진 기한 안에 신고하고,<br>적용받을 수 있는 세액공제와 감면이 있는지 검토합니다.</p></div></article><article class="card"><div class="card-img" style="background-image:url(https://images.unsplash.com/photo-1691071102169-1b821a252f0e?auto=format&fit=crop&w=1200&q=70)"></div><div class="card-txt"><span class="no">③</span><h3>양도소득세 · 상속세 · 증여세</h3><p>주택을 팔거나 가족에게 재산을 넘겨줄 때<br>세금이 얼마나 나오는지,<br>비과세나 공제를 받을 수 있는지 사실관계부터 확인합니다.<br>계약하시기 전에 먼저 상담받으시길 권합니다.</p></div></article><article class="card"><div class="card-img" style="background-image:url(https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1200&q=70)"></div><div class="card-txt"><span class="no">④</span><h3>창업 · 세무 컨설팅</h3><p>사업자등록, 홈택스 사업용 계좌·신용카드 등록,<br>첫 직원 채용 후 신고까지<br>사업을 처음 시작할 때 챙길 것을 순서대로 안내합니다.</p></div></article></div>
   </div>
 </section>
 
 <section id="schedule" class="page">
-  <div class="page-head"><div class="wrap"><h2>꼭 챙겨야 할 신고 일정</h2><p class="sub">사업 형태와 규모에 따라 달라질 수 있으니, 정확한 일정은 상담 때 확인해 드립니다.</p></div></div>
+  <div class="page-head" style="--img:url(https://images.unsplash.com/photo-1762265591492-1454ae17f31a?auto=format&fit=crop&w=1800&q=70)"><div class="wrap"><h2>꼭 챙겨야 할 신고 일정</h2><p class="sub">사업 형태와 규모에 따라 달라질 수 있으니,<br>정확한 일정은 상담 때 확인해 드립니다.</p></div></div>
   <div class="wrap page-body">
     <dl class="sched">
-      <div><dt>부가가치세 확정신고</dt><dd>7월 25일까지(1~6월분) · 다음 해 1월 25일까지(7~12월분)</dd></div>
-      <div><dt>부가가치세 예정신고</dt><dd>법인사업자 4월 25일 · 10월 25일까지 (개인사업자와 직전 과세기간 공급가액 1억5천만원 미만 법인은 원칙적으로 세무서가 고지한 금액을 납부)</dd></div>
-      <div><dt>종합소득세</dt><dd>다음 해 5월 1일 ~ 5월 31일 (성실신고확인 대상 사업자는 6월 30일까지)</dd></div>
-      <div><dt>법인세</dt><dd>사업연도 종료일이 속하는 달의 말일부터 3개월 이내 (12월 결산 법인은 3월 31일까지, 성실신고확인서 제출 법인은 4개월 이내)</dd></div>
+      <div><dt>원천세</dt><dd>원천징수한 달의 다음 달 10일까지<br><span class="note-s">(반기별 납부 사업자는 7월 10일 · 다음 해 1월 10일까지)</span></dd></div>
+      <div><dt>부가가치세 확정신고</dt><dd>7월 25일까지(1~6월분) ·<br>다음 해 1월 25일까지(7~12월분)</dd></div>
+      <div><dt>부가가치세 예정신고</dt><dd>법인사업자 4월 25일 · 10월 25일까지<br><span class="note-s">(개인사업자와 직전 과세기간 공급가액 1억5천만원 미만 법인은<br>원칙적으로 세무서가 고지한 금액을 납부)</span></dd></div>
+      <div><dt>종합소득세</dt><dd>다음 해 5월 1일 ~ 5월 31일<br><span class="note-s">(성실신고확인 대상 사업자는 6월 30일까지)</span></dd></div>
+      <div><dt>종합소득세 중간예납</dt><dd>11월 30일까지<br><span class="note-s">(세무서가 11월 1일 ~ 15일에 고지한 금액을 납부)</span></dd></div>
+      <div><dt>법인세</dt><dd>사업연도 종료일이 속하는 달의 말일부터 3개월 이내<br><span class="note-s">(12월 결산 법인은 3월 31일까지,<br>성실신고확인서 제출 법인은 4개월 이내)</span></dd></div>
+      <div><dt>법인세 중간예납</dt><dd>사업연도 개시일부터 6개월이 지난 날부터<br>2개월 이내<br><span class="note-s">(12월 결산 법인은 8월 31일까지)</span></dd></div>
     </dl>
   </div>
 </section>
 
 <section id="consult" class="page">
-  <div class="page-head"><div class="wrap"><h2>상담은 이렇게 진행됩니다</h2></div></div>
+  <div class="page-head" style="--img:url(https://images.unsplash.com/photo-1562564055-71e051d33c19?auto=format&fit=crop&w=1800&q=70)"><div class="wrap"><h2>상담은 이렇게 진행됩니다</h2></div></div>
   <div class="wrap page-body">
     <ol class="steps">
-      <li><h3>카카오톡 · 전화로 문의</h3><p>궁금한 내용을 간단히 남겨 주세요. 업종, 사업 규모, 신고 기한을 함께 알려 주시면 더 빨리 안내해 드립니다.</p></li>
-      <li><h3>자료 확인 · 일정 안내</h3><p>필요한 서류와 진행 일정, 수수료를 먼저 안내해 드립니다.</p></li>
-      <li><h3>신고 · 이후 안내</h3><p>신고를 마친 뒤에도 다음 신고 일정과 미리 준비할 것을 알려 드립니다.</p></li>
+      <li><h3>카카오톡 · 전화로 문의</h3><p>궁금한 내용을 간단히 남겨 주세요.<br>업종, 사업 규모, 신고 기한을<br>함께 알려 주시면<br>더 빨리 안내해 드립니다.</p></li>
+      <li><h3>자료 확인 · 일정 안내</h3><p>필요한 서류와 진행 일정,<br>수수료를 먼저 안내해 드립니다.</p></li>
+      <li><h3>신고 · 이후 안내</h3><p>신고를 마친 뒤에도<br>다음 신고 일정과<br>미리 준비할 것을 알려 드립니다.</p></li>
     </ol>
     <div class="band">
-      <div><h2>세금 고민, 편하게 물어보세요</h2><p>카카오톡 채널에 남겨 주시면 확인 후 답변드립니다.</p></div>
+      <div><h2>세금 고민, 편하게 물어보세요</h2><p>카카오톡 채널에 남겨 주시면 <br class="m">확인 후 답변드립니다.</p></div>
       <a class="btn kakao" href="http://pf.kakao.com/_xkADEX" target="_blank" rel="noopener">카카오톡으로 상담하기</a>
     </div>
   </div>
 </section>
 
 <section id="location" class="page">
-  <div class="page-head"><div class="wrap"><h2>오시는 길</h2></div></div>
+  <div class="page-head" style="--img:url(https://images.unsplash.com/photo-1691071207776-4c90bc27005d?auto=format&fit=crop&w=1800&q=70)"><div class="wrap"><h2>오시는 길</h2></div></div>
   <div class="wrap page-body">
     <dl class="info">
       <div><dt>주소</dt><dd>서울 강동구 아리수로93나길 76, SB메디컬타워 407호 (강일동 70-15)</dd></div>
@@ -127,9 +154,9 @@
 </section>
 
 <section id="blog" class="page">
-  <div class="page-head"><div class="wrap"><h2>세무 블로그</h2><p class="sub">자주 받는 질문과 신고 일정을 블로그에 정리하고 있습니다.</p></div></div>
+  <div class="page-head" style="--img:url(https://images.unsplash.com/photo-1772396867158-e26d9e6256b2?auto=format&fit=crop&w=1800&q=70)"><div class="wrap"><h2>세무 블로그</h2><p class="sub">자주 받는 질문과 신고 일정을 <br class="m">블로그에 정리하고 있습니다.</p></div></div>
   <div class="wrap page-body">
-    <div class="chips"><button class="chip on" data-f="">전체</button><button class="chip" data-f="사업자 세무">사업자 세무</button><button class="chip" data-f="양도·상속·증여">양도·상속·증여</button><button class="chip" data-f="신고일정 안내">신고일정 안내</button><button class="chip" data-f="세무회계선율">세무회계선율</button></div>
+    <div class="chips"><button class="chip on" data-f="">전체</button><button class="chip" data-f="사업자 세무">사업자 세무</button><button class="chip" data-f="양도·상속·증여">양도·상속·증여</button><button class="chip" data-f="신고일정 안내">신고일정 안내</button></div>
     <div class="posts list"><a class="post" href="https://blog.naver.com/seonyul_tax/224491307622" target="_blank" rel="noopener" data-cat="사업자 세무"><span class="post-meta"><span class="post-cat">사업자 세무</span><span class="post-date">2026.11.25</span></span><span class="post-title">고향사랑기부금 세액공제 총정리｜10만원 기부하면 얼마나 돌려받을까?</span></a>
 <a class="post" href="https://blog.naver.com/seonyul_tax/224490160508" target="_blank" rel="noopener" data-cat="사업자 세무"><span class="post-meta"><span class="post-cat">사업자 세무</span><span class="post-date">2026.11.24</span></span><span class="post-title">개인사업자 연말 절세 체크리스트｜12월 31일 전 확인할 장부·증빙 5가지</span></a>
 <a class="post" href="https://blog.naver.com/seonyul_tax/224488524192" target="_blank" rel="noopener" data-cat="양도·상속·증여"><span class="post-meta"><span class="post-cat">양도·상속·증여</span><span class="post-date">2026.11.23</span></span><span class="post-title">1세대 1주택 비과세 요건 정리｜보유기간·거주기간 확인하기</span></a>
@@ -143,8 +170,7 @@
 <a class="post" href="https://blog.naver.com/seonyul_tax/224461980298" target="_blank" rel="noopener" data-cat="사업자 세무"><span class="post-meta"><span class="post-cat">사업자 세무</span><span class="post-date">2026.11.02</span></span><span class="post-title">사업자등록 후 해야 할 일 5가지｜개인사업자 초기 세무관리</span></a>
 <a class="post" href="https://blog.naver.com/seonyul_tax/224459177574" target="_blank" rel="noopener" data-cat="사업자 세무"><span class="post-meta"><span class="post-cat">사업자 세무</span><span class="post-date">2026.10.30</span></span><span class="post-title">사업자등록 전 꼭 확인하세요｜신규사업자가 놓치기 쉬운 세무 기초</span></a>
 <a class="post" href="https://blog.naver.com/seonyul_tax/224457932801" target="_blank" rel="noopener" data-cat="세무회계선율"><span class="post-meta"><span class="post-cat">세무회계선율</span><span class="post-date">2026.10.29</span></span><span class="post-title">양도·상속·증여, 진행 전에 무엇을 확인해야 할까요?</span></a>
-<a class="post" href="https://blog.naver.com/seonyul_tax/224457872754" target="_blank" rel="noopener" data-cat="세무회계선율"><span class="post-meta"><span class="post-cat">세무회계선율</span><span class="post-date">2026.10.29</span></span><span class="post-title">기장대리와 신고대리, 우리 사업장엔 무엇이 필요할까요?</span></a>
-<a class="post" href="https://blog.naver.com/seonyul_tax/224457847659" target="_blank" rel="noopener" data-cat="세무회계선율"><span class="post-meta"><span class="post-cat">세무회계선율</span><span class="post-date">2026.10.29</span></span><span class="post-title">안녕하세요. 세무회계선율입니다.</span></a></div>
+<a class="post" href="https://blog.naver.com/seonyul_tax/224457872754" target="_blank" rel="noopener" data-cat="세무회계선율"><span class="post-meta"><span class="post-cat">세무회계선율</span><span class="post-date">2026.10.29</span></span><span class="post-title">기장대리와 신고대리, 우리 사업장엔 무엇이 필요할까요?</span></a></div>
     <a class="btn outline" href="https://blog.naver.com/seonyul_tax" target="_blank" rel="noopener">블로그 전체 글 보기</a>
   </div>
 </section>
@@ -156,7 +182,7 @@
     <p>세무회계선율 | 대표 세무사 오희옥 | 사업자등록번호 412-11-24098</p>
     <p>서울 강동구 아리수로93나길 76, SB메디컬타워 407호 | 전화 <a href="tel:02-6952-7046">02-6952-7046</a> | 팩스 02-6952-7064 | 이메일 <a href="mailto:seonyul_tax@naver.com">seonyul_tax@naver.com</a></p>
     <p class="links"><a href="http://pf.kakao.com/_xkADEX" target="_blank" rel="noopener">카카오톡 채널</a> · <a href="https://blog.naver.com/seonyul_tax" target="_blank" rel="noopener">네이버 블로그</a> · <a href="https://map.naver.com/p/entry/place/2062053730" target="_blank" rel="noopener">네이버 지도</a> · <a href="https://place.map.kakao.com/954283627" target="_blank" rel="noopener">카카오맵</a></p>
-    <p class="small">이 홈페이지의 내용은 일반적인 안내이며, 구체적인 사실관계에 따라 세법 적용 및 세액이 달라질 수 있습니다.</p>
+    <p class="small">사진 Unsplash · 이 홈페이지의 내용은 일반적인 안내이며, 구체적인 사실관계에 따라 세법 적용 및 세액이 달라질 수 있습니다.</p>
   </div>
 </footer>
 
@@ -184,6 +210,46 @@
   }
   window.addEventListener('hashchange', function () { show(false); });
   show(true);
+  // 다가오는 신고 일정: 확정 문구의 기한을 오늘 기준으로 계산. 토·일·공휴일이면 다음 날(국세기본법 제5조)
+  var DUE = [
+    ['부가가치세 확정신고', 1, 25], ['부가가치세 확정신고', 7, 25],
+    ['부가가치세 예정신고', 4, 25, '법인사업자'], ['부가가치세 예정신고', 10, 25, '법인사업자'],
+    ['종합소득세', 5, 31], ['법인세', 3, 31, '12월 결산 법인'],
+    ['원천세', 0, 10, '매월'], ['종합소득세 중간예납', 11, 30], ['법인세 중간예납', 8, 31, '12월 결산 법인']
+  ];
+  // 양력 고정 공휴일 + 노동절. 음력 공휴일·대체공휴일은 해마다 달라 연도별로 넣는다
+  var FIXED = ['1-1','3-1','5-1','5-5','6-6','8-15','10-3','10-9','12-25'];
+  var EXTRA = ['2027-2-6','2027-2-7','2027-2-8','2027-2-9','2027-5-13','2027-9-14','2027-9-15','2027-9-16',
+               '2028-1-26','2028-1-27','2028-1-28','2028-5-2','2028-10-2','2028-10-3','2028-10-4','2028-10-5'];
+  function off(d) {
+    var w = d.getDay(), md = (d.getMonth()+1)+'-'+d.getDate(), ymd = d.getFullYear()+'-'+md;
+    return w === 0 || w === 6 || FIXED.indexOf(md) >= 0 || EXTRA.indexOf(ymd) >= 0;
+  }
+  var list = document.getElementById('due-list');
+  if (list) {
+    var now = new Date(); now.setHours(0,0,0,0);
+    var items = [];
+    DUE.forEach(function (x) {
+      var cands = [];
+      for (var y = now.getFullYear(); y <= now.getFullYear()+1; y++) {
+        if (x[1] === 0) { for (var m = 0; m < 12; m++) cands.push(new Date(y, m, x[2])); }
+        else cands.push(new Date(y, x[1]-1, x[2]));
+      }
+      for (var c = 0; c < cands.length; c++) {
+        var d = cands[c];
+        while (off(d)) d.setDate(d.getDate()+1);
+        if (d >= now) { items.push({ n: x[0], s: x[3] || '', d: d }); break; }
+      }
+    });
+    items.sort(function (a, b) { return a.d - b.d; });
+    var W = '일월화수목금토';
+    list.innerHTML = items.slice(0, 4).map(function (it) {
+      var dd = Math.round((it.d - now) / 864e5);
+      return '<li><div><b>' + it.n + '</b>' + (it.s ? '<small>' + it.s + '</small>' : '') + '</div>' +
+        '<span class="due-date">' + (it.d.getMonth()+1) + '.' + it.d.getDate() + ' (' + W[it.d.getDay()] + ')</span>' +
+        '<span class="due-d">' + (dd === 0 ? 'D-DAY' : 'D-' + dd) + '</span></li>';
+    }).join('');
+  }
   [].slice.call(document.querySelectorAll('.chip')).forEach(function (c) {
     c.addEventListener('click', function () {
       var f = c.getAttribute('data-f');
